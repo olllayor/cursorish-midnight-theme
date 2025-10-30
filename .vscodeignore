@@ -1,0 +1,10 @@
+.git
+.gitignore
+.DS_Store
+*.vsix
+node_modules
+.vscode-test
+.editorconfig
+.prettierrc
+.eslintrc*
+*.bak

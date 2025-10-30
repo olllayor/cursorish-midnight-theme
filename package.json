@@ -1,0 +1,35 @@
+{
+	"name": "cursorish-midnight-theme",
+	"displayName": "Cursorish Midnight",
+	"description": "A clean, midnight VS Code theme with carefully chosen colors for optimal readability",
+	"version": "0.0.2",
+	"author": "ollayor",
+	"publisher": "ollayor",
+	"icon": "icon.jpg",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Cursorish Midnight",
+				"uiTheme": "vs",
+				"path": "./cursorish-midnight-theme.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/olllayor/cursorish-midnight-theme"
+	},
+	"keywords": [
+		"theme",
+		"dark",
+		"syntax",
+		"color-scheme"
+	]
+}

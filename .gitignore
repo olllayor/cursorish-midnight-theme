@@ -1,0 +1,24 @@
+# Build artifacts
+*.vsix
+dist/
+out/
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+package-lock.json
+yarn.lock
