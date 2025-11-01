@@ -5,6 +5,19 @@ All notable changes to the Cursorish Midnight theme will be documented in this f
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.6] - 2025-11-01
+
+### Changed
+
+- Set theme base to dark (uiTheme vs-dark) and declared `type: dark` with `semanticHighlighting: true` for modern VS Code
+- Normalized hover and focus backgrounds across activity bar, lists, quick input, menus, and tabs for consistent feel
+- Slightly increased hover/focus contrast to make items more obvious without being harsh
+- Clarified toolbar hover/active backgrounds for better affordance
+
+### Fixed
+
+- Corrected a bracket highlight background to use translucent color rather than opaque, avoiding visual blocks on nested code
+
 ## [0.0.3] - 2025-11-01
 
 ### Changed (0.0.3)
